@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block title %}
+    Главная
+{% endblock %}
+{% block content %}
+    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://marketplace.canva.com/EAEfxWSzgMk/1/0/1600w/canva-%D1%84%D0%B8%D0%BE%D0%BB%D0%B5%D1%82%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BC%D0%B5%D1%87%D1%82%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%BD%D0%B5%D0%B1%D0%BE-%D0%BC%D0%BE%D1%82%D0%B8%D0%B2%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B9-%D0%BF%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D0%B0-%D0%BE%D0%B1%D0%BE%D0%B8-%D0%B4%D0%BB%D1%8F-%D1%80%D0%B0%D0%B1%D0%BE%D1%87%D0%B5%D0%B3%D0%BE-%D1%81%D1%82%D0%BE%D0%BB%D0%B0-z74JgYjARYI.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://abisab.com/wp-content/uploads/2018/10/Canva-oboi-dlya-rabochego-stola.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://trashbox.ru/ifiles/1410915_047567_snimok_ekrana_16.png-orig/15-zhivyh-oboev-dlya-pk-kotorye-nelzya-stavit-na-rabote.-ot-nih-ne-otorvatsya-9.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"  data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Предыдущий</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"  data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Следующий</span>
+      </button>
+    </div>
+
+    <div class="card-group mt-3">
+      <div class="card">
+        <img class="card-img-top" src="https://trashbox.ru/ifiles/1410915_047567_snimok_ekrana_16.png-orig/15-zhivyh-oboev-dlya-pk-kotorye-nelzya-stavit-na-rabote.-ot-nih-ne-otorvatsya-9.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Название карточки</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="https://abisab.com/wp-content/uploads/2018/10/Canva-oboi-dlya-rabochego-stola.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Название карточки</h5>
+          <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top" src="https://marketplace.canva.com/EAEfxWSzgMk/1/0/1600w/canva-%D1%84%D0%B8%D0%BE%D0%BB%D0%B5%D1%82%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BC%D0%B5%D1%87%D1%82%D0%B0%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D1%8B%D0%B9-%D0%BD%D0%B5%D0%B1%D0%BE-%D0%BC%D0%BE%D1%82%D0%B8%D0%B2%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B9-%D0%BF%D1%80%D0%B8%D1%80%D0%BE%D0%B4%D0%B0-%D0%BE%D0%B1%D0%BE%D0%B8-%D0%B4%D0%BB%D1%8F-%D1%80%D0%B0%D0%B1%D0%BE%D1%87%D0%B5%D0%B3%D0%BE-%D1%81%D1%82%D0%BE%D0%BB%D0%B0-z74JgYjARYI.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Название карточки</h5>
+          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+
+{% endblock %}

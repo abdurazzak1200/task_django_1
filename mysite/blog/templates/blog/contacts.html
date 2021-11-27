@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}
+    Контакты
+{% endblock %}
+{% block content %}
+    {% for contact in data %}
+        <p>{{contact}}</p>
+    {% endfor %}
+{% endblock %}

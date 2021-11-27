@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}
+    Галерея
+{% endblock %}
+{% block content %}
+<div class="row">
+    {% for image in images %}
+        <div style="margin-bottom: 1.5rem" class="col-sm-6">
+            <div class="card">
+                <div class="card-body">
+                    <img src="{{image.image.url}}" class="img-fluid" alt="...">
+                    <p style="text-align: center;">{{image.name}}</p>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+</div>
+{% endblock %}

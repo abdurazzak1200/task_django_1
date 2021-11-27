@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}
+    О нас
+{% endblock %}
+{% block content %}
+    {% for paraph in data %}
+        <p>{{paraph}}</p>
+    {% endfor %}
+{% endblock %}
